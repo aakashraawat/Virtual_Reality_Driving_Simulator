@@ -1,0 +1,69 @@
+[1.136s] Invoking command in '/home/aakashraawat/colcon_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build install --record /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.330s] running egg_info
+[1.331s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[1.332s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.332s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.332s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.332s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.334s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.380s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.382s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.382s] running build
+[1.382s] running build_py
+[1.382s] creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build
+[1.382s] creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib
+[1.382s] creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.383s] copying ros_tcp_endpoint/subscriber.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.384s] copying ros_tcp_endpoint/exceptions.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.384s] copying ros_tcp_endpoint/communication.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.384s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.384s] copying ros_tcp_endpoint/client.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.384s] copying ros_tcp_endpoint/server.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/unity_service.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/service.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/__init__.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/publisher.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/thread_pauser.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] copying ros_tcp_endpoint/tcp_sender.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.385s] running install
+[1.386s] running install_lib
+[1.389s] creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.389s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.389s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.389s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.389s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.389s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[1.390s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+[1.391s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+[1.391s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+[1.392s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+[1.393s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+[1.393s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+[1.393s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+[1.394s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+[1.394s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+[1.394s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+[1.395s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+[1.395s] byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+[1.396s] running install_data
+[1.397s] creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index
+[1.397s] creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[1.397s] creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.398s] copying resource/ros_tcp_endpoint -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.398s] copying package.xml -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[1.398s] creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.398s] copying launch/endpoint.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.398s] running install_egg_info
+[1.399s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[1.399s] running install_scripts
+[1.415s] Installing default_server_endpoint script to /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.415s] writing list of installed files to '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/install.log'
+[1.451s] Invoked command in '/home/aakashraawat/colcon_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build install --record /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

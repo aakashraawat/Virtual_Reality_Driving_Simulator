@@ -1,0 +1,58 @@
+[0.045s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aakashraawat/colcon_ws/install/examples_tf2_py:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2 -- -j20 -l20
+[0.662s] [ 11%] Built target gtest
+[0.665s] [ 23%] Built target gtest_main
+[0.666s] [ 52%] Built target tf2
+[0.669s] [ 64%] Built target test_static_cache_unittest
+[0.671s] [ 76%] Built target test_time
+[0.672s] [100%] Built target test_simple
+[0.672s] [100%] Built target test_cache_unittest
+[0.683s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aakashraawat/colcon_ws/install/examples_tf2_py:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2 -- -j20 -l20
+[0.725s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aakashraawat/colcon_ws/install/examples_tf2_py:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2
+[0.736s] -- Install configuration: ""
+[0.736s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/lib/libtf2.so
+[0.737s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2
+[0.737s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/transform_datatypes.h
+[0.737s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/time_cache.h
+[0.738s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/exceptions.h
+[0.738s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/visibility_control.h
+[0.738s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/utils.h
+[0.738s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath
+[0.739s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/Quaternion.h
+[0.739s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/Matrix3x3.h
+[0.739s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/QuadWord.h
+[0.739s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/Vector3.h
+[0.739s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/MinMax.h
+[0.740s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/Transform.h
+[0.742s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/LinearMath/Scalar.h
+[0.742s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/buffer_core_interface.h
+[0.742s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/transform_storage.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/impl
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/impl/utils.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/impl/convert.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/buffer_core.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/time.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/include/tf2/convert.h
+[0.743s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/library_path.sh
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/library_path.dsv
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/ament_prefix_path.sh
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/path.sh
+[0.744s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/environment/path.dsv
+[0.745s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/local_setup.bash
+[0.745s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/local_setup.sh
+[0.745s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/local_setup.zsh
+[0.746s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/local_setup.dsv
+[0.746s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/package.dsv
+[0.746s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/ament_index/resource_index/packages/tf2
+[0.746s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/tf2Export.cmake
+[0.747s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/tf2Export-noconfig.cmake
+[0.747s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.748s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.748s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.748s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[0.748s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/tf2Config.cmake
+[0.748s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+[0.749s] -- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2/share/tf2/package.xml
+[0.749s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aakashraawat/colcon_ws/install/examples_tf2_py:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2

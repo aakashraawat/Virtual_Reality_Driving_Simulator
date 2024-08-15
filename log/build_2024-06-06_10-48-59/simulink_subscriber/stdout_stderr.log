@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/simulink_subscriber/simulink_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/simulink_subscriber/simulink_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/simulink_subscriber/simulink_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/simulink_subscriber/simulink_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/simulink_subscriber/simulink_subscriber.egg-info/top_level.txt
+reading manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/simulink_subscriber/simulink_subscriber.egg-info to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pose_publisher_node script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+Installing pose_subscriber_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+Installing prescanpose_subscriber script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+Installing steering_angle_simulink script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+writing list of installed files to '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log'

@@ -1,0 +1,696 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000862] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000903] (simulink_subscriber) JobQueued: {'identifier': 'simulink_subscriber', 'dependencies': OrderedDict()}
+[0.000938] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.000971] (unity_robotics_msgs) JobQueued: {'identifier': 'unity_robotics_msgs', 'dependencies': OrderedDict()}
+[0.001005] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.009356] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.015321] (simulink_subscriber) JobStarted: {'identifier': 'simulink_subscriber'}
+[0.021339] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.026869] (unity_robotics_msgs) JobStarted: {'identifier': 'unity_robotics_msgs'}
+[0.100093] (-) TimerEvent: {}
+[0.200603] (-) TimerEvent: {}
+[0.301082] (-) TimerEvent: {}
+[0.401572] (-) TimerEvent: {}
+[0.502068] (-) TimerEvent: {}
+[0.602535] (-) TimerEvent: {}
+[0.703022] (-) TimerEvent: {}
+[0.735982] (unity_robotics_msgs) JobProgress: {'identifier': 'unity_robotics_msgs', 'progress': 'cmake'}
+[0.737056] (unity_robotics_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/aakashraawat/colcon_ws/src/unity_robotics_msgs', '-DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/unity_robotics_msgs'], 'cwd': '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aakashraawat'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aakashraawat'), ('OLDPWD', '/home/aakashraawat'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aakashraawat'), ('NAME', 'DI2BELVN0115WPC'), ('WSL_INTEROP', '/run/WSL/29520_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6003'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.803224] (-) TimerEvent: {}
+[0.903662] (-) TimerEvent: {}
+[0.920724] (unity_robotics_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.003796] (-) TimerEvent: {}
+[1.104186] (-) TimerEvent: {}
+[1.142101] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aakashraawat/colcon_ws/src/ROS-TCP-Endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aakashraawat', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aakashraawat', 'OLDPWD': '/home/aakashraawat', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aakashraawat', 'NAME': 'DI2BELVN0115WPC', 'WSL_INTEROP': '/run/WSL/29520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/prefix_override:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6003', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.149233] (simulink_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simulink_subscriber', 'build', '--build-base', '/home/aakashraawat/colcon_ws/build/simulink_subscriber/build', 'install', '--record', '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log', '--install-scripts', '$base/lib/simulink_subscriber', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aakashraawat/colcon_ws/src/simulink_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aakashraawat', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aakashraawat', 'OLDPWD': '/home/aakashraawat', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aakashraawat', 'NAME': 'DI2BELVN0115WPC', 'WSL_INTEROP': '/run/WSL/29520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aakashraawat/colcon_ws/build/simulink_subscriber', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6003', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.157909] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/aakashraawat/colcon_ws/build/py_pubsub/build', 'install', '--record', '/home/aakashraawat/colcon_ws/build/py_pubsub/install.log', '--install-scripts', '$base/lib/py_pubsub', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aakashraawat/colcon_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aakashraawat', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aakashraawat', 'OLDPWD': '/home/aakashraawat', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aakashraawat', 'NAME': 'DI2BELVN0115WPC', 'WSL_INTEROP': '/run/WSL/29520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aakashraawat/colcon_ws/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aakashraawat/colcon_ws/build/py_pubsub/prefix_override:/home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6003', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.188421] (unity_robotics_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/unity_robotics_demo', 'build', '--build-base', '/home/aakashraawat/colcon_ws/build/unity_robotics_demo/build', 'install', '--record', '/home/aakashraawat/colcon_ws/build/unity_robotics_demo/install.log', '--install-scripts', '$base/lib/unity_robotics_demo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aakashraawat/colcon_ws/src/unity_robotics_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aakashraawat', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aakashraawat', 'OLDPWD': '/home/aakashraawat', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aakashraawat', 'NAME': 'DI2BELVN0115WPC', 'WSL_INTEROP': '/run/WSL/29520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aakashraawat/colcon_ws/build/unity_robotics_demo', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aakashraawat/colcon_ws/build/unity_robotics_demo/prefix_override:/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6003', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.198083] (unity_robotics_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.204303] (-) TimerEvent: {}
+[1.304756] (-) TimerEvent: {}
+[1.335827] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.336911] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[1.337489] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.337818] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.338117] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.338403] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.338519] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.339381] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[1.339600] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.340472] (ros_tcp_endpoint) StdoutLine: {'line': b'creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info\n'}
+[1.341044] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[1.341388] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[1.341553] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[1.341711] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[1.341902] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[1.342933] (unity_robotics_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.343189] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.361645] (simulink_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[1.362238] (simulink_subscriber) StdoutLine: {'line': b'creating ../../build/simulink_subscriber/simulink_subscriber.egg-info\n'}
+[1.362579] (simulink_subscriber) StdoutLine: {'line': b'writing ../../build/simulink_subscriber/simulink_subscriber.egg-info/PKG-INFO\n'}
+[1.362828] (simulink_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/simulink_subscriber/simulink_subscriber.egg-info/dependency_links.txt\n'}
+[1.363089] (simulink_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/simulink_subscriber/simulink_subscriber.egg-info/entry_points.txt\n'}
+[1.363369] (simulink_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/simulink_subscriber/simulink_subscriber.egg-info/requires.txt\n'}
+[1.363476] (simulink_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/simulink_subscriber/simulink_subscriber.egg-info/top_level.txt\n'}
+[1.363939] (simulink_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'\n"}
+[1.375976] (unity_robotics_demo) StdoutLine: {'line': b'running egg_info\n'}
+[1.376541] (unity_robotics_demo) StdoutLine: {'line': b'creating ../../build/unity_robotics_demo/unity_robotics_demo.egg-info\n'}
+[1.376917] (unity_robotics_demo) StdoutLine: {'line': b'writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO\n'}
+[1.377339] (unity_robotics_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt\n'}
+[1.377574] (unity_robotics_demo) StdoutLine: {'line': b'writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt\n'}
+[1.377644] (unity_robotics_demo) StdoutLine: {'line': b'writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt\n'}
+[1.377691] (unity_robotics_demo) StdoutLine: {'line': b'writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt\n'}
+[1.378709] (unity_robotics_demo) StdoutLine: {'line': b"writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[1.386358] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.387496] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.387827] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.388039] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.388098] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/py_pubsub/build\n'}
+[1.388290] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib\n'}
+[1.388664] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.388934] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.389089] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.389290] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.389476] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.389864] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.390650] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.390904] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.391140] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[1.391226] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[1.391404] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build\n'}
+[1.391641] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib\n'}
+[1.391950] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.392135] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[1.392586] (py_pubsub) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[1.392886] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393060] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393227] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393354] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393476] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393599] (py_pubsub) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[1.393720] (py_pubsub) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[1.393841] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.393973] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[1.394225] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394317] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394372] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394417] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394460] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394614] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.394662] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[1.394718] (simulink_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'\n"}
+[1.394928] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc\n'}
+[1.395101] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[1.395333] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[1.395486] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.395820] (simulink_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'\n"}
+[1.395982] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/py_pubsub/share/ament_index\n'}
+[1.396104] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[1.396456] (py_pubsub) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.396965] (simulink_subscriber) StdoutLine: {'line': b'running build\n'}
+[1.397162] (simulink_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[1.397356] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/simulink_subscriber/build\n'}
+[1.397534] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib\n'}
+[1.397721] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.397899] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/aakashraawat/colcon_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.398071] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/aakashraawat/colcon_ws/install/py_pubsub/share/py_pubsub\n'}
+[1.398257] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.398652] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.398754] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.398809] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.398854] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.398905] (simulink_subscriber) StdoutLine: {'line': b'copying simulink_subscriber/pose_publisher_node.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.398954] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.398997] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399039] (simulink_subscriber) StdoutLine: {'line': b'copying simulink_subscriber/__init__.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.399080] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399122] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399168] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399224] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399355] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399473] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399591] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.399717] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc\n'}
+[1.399833] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[1.399952] (simulink_subscriber) StdoutLine: {'line': b'copying simulink_subscriber/pose_simple_publisher.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.400232] (simulink_subscriber) StdoutLine: {'line': b'copying simulink_subscriber/prescanpose_subscriber.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.400461] (simulink_subscriber) StdoutLine: {'line': b'copying simulink_subscriber/prescanpose_subscriber_trial.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber\n'}
+[1.400585] (simulink_subscriber) StdoutLine: {'line': b'running install\n'}
+[1.400709] (simulink_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[1.400840] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc\n'}
+[1.400958] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc\n'}
+[1.401082] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc\n'}
+[1.401236] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.401356] (simulink_subscriber) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/pose_publisher_node.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.401474] (simulink_subscriber) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/__init__.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.401591] (simulink_subscriber) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/pose_simple_publisher.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.401717] (simulink_subscriber) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/prescanpose_subscriber.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.401833] (simulink_subscriber) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/prescanpose_subscriber_trial.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber\n'}
+[1.402222] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.402401] (simulink_subscriber) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/pose_publisher_node.py to pose_publisher_node.cpython-38.pyc\n'}
+[1.402488] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc\n'}
+[1.402557] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc\n'}
+[1.402897] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc\n'}
+[1.403282] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc\n'}
+[1.403663] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc\n'}
+[1.403945] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc\n'}
+[1.404064] (simulink_subscriber) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/__init__.py to __init__.cpython-38.pyc\n'}
+[1.404360] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc\n'}
+[1.404454] (simulink_subscriber) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/pose_simple_publisher.py to pose_simple_publisher.cpython-38.pyc\n'}
+[1.404678] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc\n'}
+[1.404846] (-) TimerEvent: {}
+[1.405004] (simulink_subscriber) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/prescanpose_subscriber.py to prescanpose_subscriber.cpython-38.pyc\n'}
+[1.405668] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[1.406085] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index\n'}
+[1.406406] (simulink_subscriber) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/prescanpose_subscriber_trial.py to prescanpose_subscriber_trial.cpython-38.pyc\n'}
+[1.406546] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index\n'}
+[1.406760] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[1.407084] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[1.407185] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[1.407343] (simulink_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[1.407491] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[1.407631] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[1.407785] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.408004] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/simulink_subscriber/share/ament_index\n'}
+[1.408093] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/simulink_subscriber/share/ament_index/resource_index\n'}
+[1.408222] (simulink_subscriber) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/simulink_subscriber/share/ament_index/resource_index/packages\n'}
+[1.408355] (simulink_subscriber) StdoutLine: {'line': b'copying resource/simulink_subscriber -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/share/ament_index/resource_index/packages\n'}
+[1.408564] (simulink_subscriber) StdoutLine: {'line': b'copying package.xml -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/share/simulink_subscriber\n'}
+[1.408647] (simulink_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.408730] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[1.408948] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[1.409676] (simulink_subscriber) StdoutLine: {'line': b'Copying ../../build/simulink_subscriber/simulink_subscriber.egg-info to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info\n'}
+[1.410606] (simulink_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[1.420932] (unity_robotics_demo) StdoutLine: {'line': b"reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[1.421421] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/aakashraawat/colcon_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.422058] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/aakashraawat/colcon_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.422184] (unity_robotics_demo) StdoutLine: {'line': b"writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[1.422332] (unity_robotics_demo) StdoutLine: {'line': b'running build\n'}
+[1.422472] (unity_robotics_demo) StdoutLine: {'line': b'running build_py\n'}
+[1.422613] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/aakashraawat/colcon_ws/build/py_pubsub/install.log'\n"}
+[1.422863] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build\n'}
+[1.422932] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib\n'}
+[1.422976] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[1.423076] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/color_publisher.py -> /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[1.423252] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/__init__.py -> /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[1.423494] (unity_robotics_demo) StdoutLine: {'line': b'copying unity_robotics_demo/position_service.py -> /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo\n'}
+[1.423673] (unity_robotics_demo) StdoutLine: {'line': b'running install\n'}
+[1.424281] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[1.424639] (unity_robotics_demo) StdoutLine: {'line': b'running install_lib\n'}
+[1.424839] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/aakashraawat/colcon_ws/build/ros_tcp_endpoint/install.log'\n"}
+[1.425820] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[1.426061] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/color_publisher.py -> /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[1.426291] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/__init__.py -> /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[1.426367] (unity_robotics_demo) StdoutLine: {'line': b'copying /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build/lib/unity_robotics_demo/position_service.py -> /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo\n'}
+[1.426855] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/color_publisher.py to color_publisher.cpython-38.pyc\n'}
+[1.429085] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/__init__.py to __init__.cpython-38.pyc\n'}
+[1.429288] (unity_robotics_demo) StdoutLine: {'line': b'byte-compiling /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/position_service.py to position_service.cpython-38.pyc\n'}
+[1.429716] (unity_robotics_demo) StdoutLine: {'line': b'running install_data\n'}
+[1.430050] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/unity_robotics_demo/share/ament_index\n'}
+[1.430228] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/unity_robotics_demo/share/ament_index/resource_index\n'}
+[1.430285] (unity_robotics_demo) StdoutLine: {'line': b'creating /home/aakashraawat/colcon_ws/install/unity_robotics_demo/share/ament_index/resource_index/packages\n'}
+[1.430538] (unity_robotics_demo) StdoutLine: {'line': b'copying resource/unity_robotics_demo -> /home/aakashraawat/colcon_ws/install/unity_robotics_demo/share/ament_index/resource_index/packages\n'}
+[1.430614] (unity_robotics_demo) StdoutLine: {'line': b'copying package.xml -> /home/aakashraawat/colcon_ws/install/unity_robotics_demo/share/unity_robotics_demo\n'}
+[1.430661] (unity_robotics_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.432678] (unity_robotics_demo) StdoutLine: {'line': b'Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info\n'}
+[1.433036] (simulink_subscriber) StdoutLine: {'line': b'Installing pose_publisher_node script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber\n'}
+[1.433389] (simulink_subscriber) StdoutLine: {'line': b'Installing pose_simple_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber\n'}
+[1.433833] (simulink_subscriber) StdoutLine: {'line': b'Installing pose_subscriber_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber\n'}
+[1.433967] (unity_robotics_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.434134] (simulink_subscriber) StdoutLine: {'line': b'Installing prescanpose_subscriber script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber\n'}
+[1.434425] (simulink_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log'\n"}
+[1.452968] (unity_robotics_demo) StdoutLine: {'line': b'Installing color_publisher script to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[1.453494] (unity_robotics_demo) StdoutLine: {'line': b'Installing position_service script to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[1.453969] (unity_robotics_demo) StdoutLine: {'line': b"writing list of installed files to '/home/aakashraawat/colcon_ws/build/unity_robotics_demo/install.log'\n"}
+[1.460379] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[1.470988] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[1.472129] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.477905] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.479788] (simulink_subscriber) CommandEnded: {'returncode': 0}
+[1.486689] (simulink_subscriber) JobEnded: {'identifier': 'simulink_subscriber', 'rc': 0}
+[1.491121] (unity_robotics_demo) CommandEnded: {'returncode': 0}
+[1.497018] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 0}
+[1.498435] (unity_robotics_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.499228] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504985] (-) TimerEvent: {}
+[1.605324] (-) TimerEvent: {}
+[1.635762] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.645338] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.645648] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.647607] (unity_robotics_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.705454] (-) TimerEvent: {}
+[1.793671] (unity_robotics_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.794530] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.805570] (-) TimerEvent: {}
+[1.906019] (-) TimerEvent: {}
+[1.949386] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.959423] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.959845] (unity_robotics_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.961133] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.961908] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[1.979371] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.979623] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.006146] (-) TimerEvent: {}
+[2.106575] (-) TimerEvent: {}
+[2.116123] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.121675] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.206737] (-) TimerEvent: {}
+[2.307119] (-) TimerEvent: {}
+[2.407524] (-) TimerEvent: {}
+[2.507933] (-) TimerEvent: {}
+[2.608327] (-) TimerEvent: {}
+[2.708736] (-) TimerEvent: {}
+[2.809168] (-) TimerEvent: {}
+[2.909576] (-) TimerEvent: {}
+[3.009985] (-) TimerEvent: {}
+[3.110419] (-) TimerEvent: {}
+[3.210842] (-) TimerEvent: {}
+[3.311239] (-) TimerEvent: {}
+[3.380532] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.411375] (-) TimerEvent: {}
+[3.511781] (-) TimerEvent: {}
+[3.612190] (-) TimerEvent: {}
+[3.712639] (-) TimerEvent: {}
+[3.813168] (-) TimerEvent: {}
+[3.913584] (-) TimerEvent: {}
+[4.014008] (-) TimerEvent: {}
+[4.114413] (-) TimerEvent: {}
+[4.214818] (-) TimerEvent: {}
+[4.315294] (-) TimerEvent: {}
+[4.416075] (-) TimerEvent: {}
+[4.507406] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.516328] (-) TimerEvent: {}
+[4.616689] (-) TimerEvent: {}
+[4.717095] (-) TimerEvent: {}
+[4.817502] (-) TimerEvent: {}
+[4.917912] (-) TimerEvent: {}
+[5.018309] (-) TimerEvent: {}
+[5.118713] (-) TimerEvent: {}
+[5.219131] (-) TimerEvent: {}
+[5.319563] (-) TimerEvent: {}
+[5.419996] (-) TimerEvent: {}
+[5.520382] (-) TimerEvent: {}
+[5.620790] (-) TimerEvent: {}
+[5.721211] (-) TimerEvent: {}
+[5.821592] (-) TimerEvent: {}
+[5.921998] (-) TimerEvent: {}
+[6.022399] (-) TimerEvent: {}
+[6.122808] (-) TimerEvent: {}
+[6.223232] (-) TimerEvent: {}
+[6.323630] (-) TimerEvent: {}
+[6.424027] (-) TimerEvent: {}
+[6.524416] (-) TimerEvent: {}
+[6.581564] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.602362] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[6.612503] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[6.624874] (-) TimerEvent: {}
+[6.679071] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.725383] (-) TimerEvent: {}
+[6.825750] (-) TimerEvent: {}
+[6.849355] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.925896] (-) TimerEvent: {}
+[7.026285] (-) TimerEvent: {}
+[7.126670] (-) TimerEvent: {}
+[7.227060] (-) TimerEvent: {}
+[7.327450] (-) TimerEvent: {}
+[7.427847] (-) TimerEvent: {}
+[7.528263] (-) TimerEvent: {}
+[7.628672] (-) TimerEvent: {}
+[7.729082] (-) TimerEvent: {}
+[7.829490] (-) TimerEvent: {}
+[7.929880] (-) TimerEvent: {}
+[8.030281] (-) TimerEvent: {}
+[8.130659] (-) TimerEvent: {}
+[8.231064] (-) TimerEvent: {}
+[8.331496] (-) TimerEvent: {}
+[8.431909] (-) TimerEvent: {}
+[8.532447] (-) TimerEvent: {}
+[8.632915] (-) TimerEvent: {}
+[8.733327] (-) TimerEvent: {}
+[8.833729] (-) TimerEvent: {}
+[8.934392] (-) TimerEvent: {}
+[9.034813] (-) TimerEvent: {}
+[9.135219] (-) TimerEvent: {}
+[9.235611] (-) TimerEvent: {}
+[9.336020] (-) TimerEvent: {}
+[9.436418] (-) TimerEvent: {}
+[9.536858] (-) TimerEvent: {}
+[9.637279] (-) TimerEvent: {}
+[9.737691] (-) TimerEvent: {}
+[9.838119] (-) TimerEvent: {}
+[9.938935] (-) TimerEvent: {}
+[10.039677] (-) TimerEvent: {}
+[10.140105] (-) TimerEvent: {}
+[10.240545] (-) TimerEvent: {}
+[10.340997] (-) TimerEvent: {}
+[10.441449] (-) TimerEvent: {}
+[10.541855] (-) TimerEvent: {}
+[10.642243] (-) TimerEvent: {}
+[10.742660] (-) TimerEvent: {}
+[10.843069] (-) TimerEvent: {}
+[10.943501] (-) TimerEvent: {}
+[11.043914] (-) TimerEvent: {}
+[11.090185] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.144414] (-) TimerEvent: {}
+[11.179991] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.200625] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.201498] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[11.244537] (-) TimerEvent: {}
+[11.344903] (-) TimerEvent: {}
+[11.445301] (-) TimerEvent: {}
+[11.545701] (-) TimerEvent: {}
+[11.644034] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.644310] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.644370] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[11.644417] (unity_robotics_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[11.645802] (-) TimerEvent: {}
+[11.661635] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.745940] (-) TimerEvent: {}
+[11.769562] (unity_robotics_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.783925] (unity_robotics_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.785277] (unity_robotics_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.786135] (unity_robotics_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.790000] (unity_robotics_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.841273] (unity_robotics_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.843619] (unity_robotics_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/aakashraawat/colcon_ws/build/unity_robotics_msgs\n'}
+[11.846005] (-) TimerEvent: {}
+[11.857093] (unity_robotics_msgs) CommandEnded: {'returncode': 0}
+[11.860499] (unity_robotics_msgs) JobProgress: {'identifier': 'unity_robotics_msgs', 'progress': 'build'}
+[11.860568] (unity_robotics_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs', '--', '-j20', '-l20'], 'cwd': '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aakashraawat'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aakashraawat'), ('OLDPWD', '/home/aakashraawat'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aakashraawat'), ('NAME', 'DI2BELVN0115WPC'), ('WSL_INTEROP', '/run/WSL/29520_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6003'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.895010] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__cpp\x1b[0m\n'}
+[11.895468] (unity_robotics_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.904605] (unity_robotics_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.946155] (-) TimerEvent: {}
+[12.046609] (-) TimerEvent: {}
+[12.147074] (-) TimerEvent: {}
+[12.247454] (-) TimerEvent: {}
+[12.339254] (unity_robotics_msgs) StdoutLine: {'line': b'[  3%] Built target unity_robotics_msgs__cpp\n'}
+[12.348672] (-) TimerEvent: {}
+[12.350445] (unity_robotics_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.350739] (unity_robotics_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.352286] (unity_robotics_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.368925] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_generator_c\x1b[0m\n'}
+[12.382583] (unity_robotics_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_msgs/msg/detail/unity_color__functions.c.o\x1b[0m\n'}
+[12.382879] (unity_robotics_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_msgs/srv/detail/object_pose_service__functions.c.o\x1b[0m\n'}
+[12.382952] (unity_robotics_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_msgs/srv/detail/position_service__functions.c.o\x1b[0m\n'}
+[12.383007] (unity_robotics_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_generator_c.dir/rosidl_generator_c/unity_robotics_msgs/msg/detail/pos_rot__functions.c.o\x1b[0m\n'}
+[12.439459] (unity_robotics_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libunity_robotics_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[12.448813] (-) TimerEvent: {}
+[12.549185] (-) TimerEvent: {}
+[12.565704] (unity_robotics_msgs) StdoutLine: {'line': b'[ 18%] Built target unity_robotics_msgs__rosidl_generator_c\n'}
+[12.575644] (unity_robotics_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.575939] (unity_robotics_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.620196] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[12.632916] (unity_robotics_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_msgs/msg/unity_color__type_support.cpp.o\x1b[0m\n'}
+[12.633257] (unity_robotics_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_msgs/msg/pos_rot__type_support.cpp.o\x1b[0m\n'}
+[12.633532] (unity_robotics_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_msgs/srv/position_service__type_support.cpp.o\x1b[0m\n'}
+[12.633811] (unity_robotics_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unity_robotics_msgs/srv/object_pose_service__type_support.cpp.o\x1b[0m\n'}
+[12.649319] (-) TimerEvent: {}
+[12.684714] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[12.699336] (unity_robotics_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_msgs/msg/detail/unity_color__type_support.cpp.o\x1b[0m\n'}
+[12.699644] (unity_robotics_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_msgs/msg/detail/pos_rot__type_support.cpp.o\x1b[0m\n'}
+[12.699797] (unity_robotics_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_msgs/srv/detail/position_service__type_support.cpp.o\x1b[0m\n'}
+[12.699898] (unity_robotics_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unity_robotics_msgs/srv/detail/object_pose_service__type_support.cpp.o\x1b[0m\n'}
+[12.743172] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[12.749464] (-) TimerEvent: {}
+[12.766175] (unity_robotics_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_msgs/srv/detail/dds_fastrtps/position_service__type_support.cpp.o\x1b[0m\n'}
+[12.766665] (unity_robotics_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_msgs/msg/detail/dds_fastrtps/unity_color__type_support.cpp.o\x1b[0m\n'}
+[12.766814] (unity_robotics_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_msgs/msg/detail/dds_fastrtps/pos_rot__type_support.cpp.o\x1b[0m\n'}
+[12.766917] (unity_robotics_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unity_robotics_msgs/srv/detail/dds_fastrtps/object_pose_service__type_support.cpp.o\x1b[0m\n'}
+[12.849626] (-) TimerEvent: {}
+[12.950098] (-) TimerEvent: {}
+[12.962005] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[12.979014] (unity_robotics_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_msgs/msg/unity_color__type_support.cpp.o\x1b[0m\n'}
+[12.979418] (unity_robotics_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_msgs/srv/position_service__type_support.cpp.o\x1b[0m\n'}
+[12.979572] (unity_robotics_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_msgs/srv/object_pose_service__type_support.cpp.o\x1b[0m\n'}
+[12.979669] (unity_robotics_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unity_robotics_msgs/msg/pos_rot__type_support.cpp.o\x1b[0m\n'}
+[12.999610] (unity_robotics_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libunity_robotics_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.021635] (unity_robotics_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libunity_robotics_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.050288] (-) TimerEvent: {}
+[13.066501] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.080704] (unity_robotics_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libunity_robotics_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.083162] (unity_robotics_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_msgs/msg/detail/pos_rot__type_support.c.o\x1b[0m\n'}
+[13.083584] (unity_robotics_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_msgs/srv/detail/object_pose_service__type_support.c.o\x1b[0m\n'}
+[13.083699] (unity_robotics_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_msgs/msg/detail/unity_color__type_support.c.o\x1b[0m\n'}
+[13.083819] (unity_robotics_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unity_robotics_msgs/srv/detail/position_service__type_support.c.o\x1b[0m\n'}
+[13.123818] (unity_robotics_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libunity_robotics_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.150427] (-) TimerEvent: {}
+[13.158769] (unity_robotics_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_msgs__rosidl_typesupport_cpp\n'}
+[13.160191] (unity_robotics_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_msgs__rosidl_typesupport_c\n'}
+[13.228415] (unity_robotics_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_msgs__rosidl_typesupport_introspection_cpp\n'}
+[13.250572] (-) TimerEvent: {}
+[13.258014] (unity_robotics_msgs) StdoutLine: {'line': b'[ 65%] Built target unity_robotics_msgs__rosidl_typesupport_introspection_c\n'}
+[13.283410] (unity_robotics_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libunity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.350705] (-) TimerEvent: {}
+[13.440054] (unity_robotics_msgs) StdoutLine: {'line': b'[ 67%] Built target unity_robotics_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.450160] (unity_robotics_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.450798] (-) TimerEvent: {}
+[13.551486] (-) TimerEvent: {}
+[13.651885] (-) TimerEvent: {}
+[13.743531] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.751988] (-) TimerEvent: {}
+[13.759994] (unity_robotics_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_msgs/srv/detail/position_service__type_support_c.cpp.o\x1b[0m\n'}
+[13.760303] (unity_robotics_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_msgs/msg/detail/pos_rot__type_support_c.cpp.o\x1b[0m\n'}
+[13.760374] (unity_robotics_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_msgs/srv/detail/object_pose_service__type_support_c.cpp.o\x1b[0m\n'}
+[13.760750] (unity_robotics_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_msgs/msg/detail/unity_color__type_support_c.cpp.o\x1b[0m\n'}
+[13.852164] (-) TimerEvent: {}
+[13.952602] (-) TimerEvent: {}
+[14.053025] (-) TimerEvent: {}
+[14.153467] (-) TimerEvent: {}
+[14.190648] (unity_robotics_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libunity_robotics_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.253608] (-) TimerEvent: {}
+[14.353094] (unity_robotics_msgs) StdoutLine: {'line': b'[ 78%] Built target unity_robotics_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.353676] (-) TimerEvent: {}
+[14.361794] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs\x1b[0m\n'}
+[14.370820] (unity_robotics_msgs) StdoutLine: {'line': b'[ 78%] Built target unity_robotics_msgs\n'}
+[14.379405] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__py\x1b[0m\n'}
+[14.389922] (unity_robotics_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.453810] (-) TimerEvent: {}
+[14.554161] (-) TimerEvent: {}
+[14.654564] (-) TimerEvent: {}
+[14.755006] (-) TimerEvent: {}
+[14.855740] (-) TimerEvent: {}
+[14.956543] (-) TimerEvent: {}
+[15.018268] (unity_robotics_msgs) StdoutLine: {'line': b'[ 80%] Built target unity_robotics_msgs__py\n'}
+[15.025902] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__python\x1b[0m\n'}
+[15.043663] (unity_robotics_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__python.dir/rosidl_generator_py/unity_robotics_msgs/msg/_pos_rot_s.c.o\x1b[0m\n'}
+[15.043929] (unity_robotics_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__python.dir/rosidl_generator_py/unity_robotics_msgs/msg/_unity_color_s.c.o\x1b[0m\n'}
+[15.044064] (unity_robotics_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__python.dir/rosidl_generator_py/unity_robotics_msgs/srv/_position_service_s.c.o\x1b[0m\n'}
+[15.044421] (unity_robotics_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__python.dir/rosidl_generator_py/unity_robotics_msgs/srv/_object_pose_service_s.c.o\x1b[0m\n'}
+[15.056706] (-) TimerEvent: {}
+[15.132669] (unity_robotics_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unity_robotics_msgs/libunity_robotics_msgs__python.so\x1b[0m\n'}
+[15.156839] (-) TimerEvent: {}
+[15.239767] (unity_robotics_msgs) StdoutLine: {'line': b'[ 89%] Built target unity_robotics_msgs__python\n'}
+[15.248610] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.248845] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.248901] (unity_robotics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[15.256949] (-) TimerEvent: {}
+[15.263606] (unity_robotics_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unity_robotics_msgs/_unity_robotics_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.263918] (unity_robotics_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unity_robotics_msgs/_unity_robotics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.264291] (unity_robotics_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unity_robotics_msgs/_unity_robotics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.340208] (unity_robotics_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.341634] (unity_robotics_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.349095] (unity_robotics_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.357076] (-) TimerEvent: {}
+[15.435402] (unity_robotics_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_msgs__rosidl_typesupport_c__pyext\n'}
+[15.457212] (-) TimerEvent: {}
+[15.464416] (unity_robotics_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.472074] (unity_robotics_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.482182] (unity_robotics_msgs) CommandEnded: {'returncode': 0}
+[15.555790] (unity_robotics_msgs) JobProgress: {'identifier': 'unity_robotics_msgs', 'progress': 'install'}
+[15.557294] (-) TimerEvent: {}
+[15.565268] (unity_robotics_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs'], 'cwd': '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aakashraawat'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aakashraawat'), ('OLDPWD', '/home/aakashraawat'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aakashraawat'), ('NAME', 'DI2BELVN0115WPC'), ('WSL_INTEROP', '/run/WSL/29520_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/win32:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/mingw32/bin:/mnt/c/Installations/Simcenter_Amesim_2020.2/Amesim/sys/python/win64:/mnt/c/Installations/Simcenter_Amesim_2020.2/System Architect/win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Installations/Matlab_R2022b/bin:/mnt/c/Installations/Matlab_R2022a/bin:/mnt/c/Installations/Matlab_R2021b/bin:/mnt/c/Installations/Matlab_R2020a/runtime/win64:/mnt/c/Installations/Matlab_R2020a/bin:/mnt/c/Installations/SIMAU/utils:/mnt/c/Program Files/Zulu/zulu-8-jre/bin:/mnt/c/Program Files/IcedTeaWeb/WebStart/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Installations/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/z004xz4h/AppData/Local/Microsoft/WindowsApps:/mnt/c/Installations/Microsoft VS Code/bin:/mnt/c/Installations/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0e0482e7-d483-47be-8458-02db1c22f381'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6003'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.572627] (unity_robotics_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.573243] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/ament_index/resource_index/rosidl_interfaces/unity_robotics_msgs\n'}
+[15.573498] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.573667] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.573797] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/unity_color.h\n'}
+[15.573938] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.574003] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.574111] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__functions.c\n'}
+[15.574238] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__struct.h\n'}
+[15.574421] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__type_support.h\n'}
+[15.574501] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__functions.c\n'}
+[15.574618] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__type_support.h\n'}
+[15.574785] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__struct.h\n'}
+[15.574837] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__functions.h\n'}
+[15.574899] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__functions.h\n'}
+[15.575015] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/pos_rot.h\n'}
+[15.575129] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.575416] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/position_service.h\n'}
+[15.575533] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.575653] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__struct.h\n'}
+[15.575779] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__type_support.h\n'}
+[15.575895] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__type_support.h\n'}
+[15.576010] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__struct.h\n'}
+[15.576125] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__functions.h\n'}
+[15.576364] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__functions.c\n'}
+[15.576439] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__functions.c\n'}
+[15.576482] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__functions.h\n'}
+[15.576523] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/object_pose_service.h\n'}
+[15.576565] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/library_path.sh\n'}
+[15.576708] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/library_path.dsv\n'}
+[15.576819] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_generator_c.so\n'}
+[15.577058] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_generator_c.so" to ""\n'}
+[15.577178] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.577368] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.577500] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.577726] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h\n'}
+[15.577877] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h\n'}
+[15.577987] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.578236] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.578311] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.578429] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h\n'}
+[15.578515] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h\n'}
+[15.578629] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.578937] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.579071] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.579190] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.579328] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.579445] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.579546] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.579662] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/dds_fastrtps\n'}
+[15.579763] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.579878] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.579998] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.580248] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/dds_fastrtps\n'}
+[15.580332] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.580495] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.580610] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.580733] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.580848] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.580967] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.581081] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.581196] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.581335] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__type_support.c\n'}
+[15.581450] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__type_support.c\n'}
+[15.581567] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_c.h\n'}
+[15.581682] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_c.h\n'}
+[15.581812] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.581926] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.582040] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__type_support.c\n'}
+[15.582440] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_c.h\n'}
+[15.582560] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__rosidl_typesupport_introspection_c.h\n'}
+[15.582678] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__type_support.c\n'}
+[15.582816] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_introspection_c.so\n'}
+[15.582930] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.583046] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_c.so\n'}
+[15.583165] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_c.so" to ""\n'}
+[15.583290] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.583409] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.583523] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/unity_color.hpp\n'}
+[15.583624] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/pos_rot.hpp\n'}
+[15.583752] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.583853] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__type_support.hpp\n'}
+[15.583967] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__traits.hpp\n'}
+[15.584081] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__struct.hpp\n'}
+[15.584196] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__traits.hpp\n'}
+[15.584324] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__builder.hpp\n'}
+[15.584431] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__struct.hpp\n'}
+[15.584558] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__builder.hpp\n'}
+[15.584643] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__type_support.hpp\n'}
+[15.584865] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.584987] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.585103] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.585369] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__struct.hpp\n'}
+[15.585481] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__builder.hpp\n'}
+[15.585554] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__type_support.hpp\n'}
+[15.585621] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__traits.hpp\n'}
+[15.585688] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__builder.hpp\n'}
+[15.585781] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__type_support.hpp\n'}
+[15.585851] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__traits.hpp\n'}
+[15.585918] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__struct.hpp\n'}
+[15.585984] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/position_service.hpp\n'}
+[15.586050] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/object_pose_service.hpp\n'}
+[15.586117] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs\n'}
+[15.586183] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg\n'}
+[15.586269] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail\n'}
+[15.586339] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__type_support.cpp\n'}
+[15.586425] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.586493] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/unity_color__type_support.cpp\n'}
+[15.586561] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.586671] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv\n'}
+[15.586762] (unity_robotics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail\n'}
+[15.586832] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__type_support.cpp\n'}
+[15.586899] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.586967] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.587033] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/include/unity_robotics_msgs/srv/detail/position_service__type_support.cpp\n'}
+[15.587101] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[15.587174] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.587263] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_cpp.so\n'}
+[15.587334] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[15.587401] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/pythonpath.sh\n'}
+[15.587470] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/pythonpath.dsv\n'}
+[15.587538] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/__init__.py\n'}
+[15.608359] (unity_robotics_msgs) StdoutLine: {'line': b"Compiling '/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/__init__.py'...\n"}
+[15.612182] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg\n'}
+[15.612421] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg/_pos_rot_s.c\n'}
+[15.612602] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg/_unity_color.py\n'}
+[15.612812] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg/__init__.py\n'}
+[15.612877] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg/_unity_color_s.c\n'}
+[15.612987] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/msg/_pos_rot.py\n'}
+[15.613177] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv\n'}
+[15.613269] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv/_object_pose_service.py\n'}
+[15.613492] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv/_object_pose_service_s.c\n'}
+[15.613549] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv/_position_service_s.c\n'}
+[15.613593] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv/__init__.py\n'}
+[15.613636] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/srv/_position_service.py\n'}
+[15.613728] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.614106] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.614344] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.614683] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.614923] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.615222] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages/unity_robotics_msgs/unity_robotics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.615386] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__python.so\n'}
+[15.615530] (unity_robotics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/libunity_robotics_msgs__python.so" to ""\n'}
+[15.615731] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/msg/PosRot.idl\n'}
+[15.615967] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/msg/UnityColor.idl\n'}
+[15.616165] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/PositionService.idl\n'}
+[15.616368] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/ObjectPoseService.idl\n'}
+[15.617250] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/msg/PosRot.msg\n'}
+[15.617457] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/msg/UnityColor.msg\n'}
+[15.617578] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/PositionService.srv\n'}
+[15.617746] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/PositionService_Request.msg\n'}
+[15.617903] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/PositionService_Response.msg\n'}
+[15.618053] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/ObjectPoseService.srv\n'}
+[15.618319] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/ObjectPoseService_Request.msg\n'}
+[15.618486] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/srv/ObjectPoseService_Response.msg\n'}
+[15.618607] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/ament_index/resource_index/package_run_dependencies/unity_robotics_msgs\n'}
+[15.618725] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/ament_index/resource_index/parent_prefix_path/unity_robotics_msgs\n'}
+[15.618875] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/ament_prefix_path.sh\n'}
+[15.618920] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/ament_prefix_path.dsv\n'}
+[15.619012] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/path.sh\n'}
+[15.619082] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/environment/path.dsv\n'}
+[15.619145] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/local_setup.bash\n'}
+[15.619272] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/local_setup.sh\n'}
+[15.619395] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/local_setup.zsh\n'}
+[15.619510] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/local_setup.dsv\n'}
+[15.619626] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/package.dsv\n'}
+[15.619774] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/ament_index/resource_index/packages/unity_robotics_msgs\n'}
+[15.620036] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_generator_cExport.cmake\n'}
+[15.620131] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.620269] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.620392] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.620509] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_cExport.cmake\n'}
+[15.620626] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.620749] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_generator_cppExport.cmake\n'}
+[15.620991] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.621058] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.621178] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[15.621310] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.621427] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[15.621649] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.621772] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.621839] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.621882] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.621924] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.621965] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.622006] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgsConfig.cmake\n'}
+[15.622047] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/cmake/unity_robotics_msgsConfig-version.cmake\n'}
+[15.622087] (unity_robotics_msgs) StdoutLine: {'line': b'-- Installing: /home/aakashraawat/colcon_ws/install/unity_robotics_msgs/share/unity_robotics_msgs/package.xml\n'}
+[15.624128] (unity_robotics_msgs) CommandEnded: {'returncode': 0}
+[15.657451] (-) TimerEvent: {}
+[15.714440] (unity_robotics_msgs) JobEnded: {'identifier': 'unity_robotics_msgs', 'rc': 0}
+[15.715708] (-) EventReactorShutdown: {}

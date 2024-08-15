@@ -1,0 +1,8 @@
+source;share/tf2_bullet/hook/cmake_prefix_path.ps1
+source;share/tf2_bullet/hook/cmake_prefix_path.dsv
+source;share/tf2_bullet/hook/cmake_prefix_path.sh
+source;share/tf2_bullet/local_setup.bash
+source;share/tf2_bullet/local_setup.dsv
+source;share/tf2_bullet/local_setup.ps1
+source;share/tf2_bullet/local_setup.sh
+source;share/tf2_bullet/local_setup.zsh

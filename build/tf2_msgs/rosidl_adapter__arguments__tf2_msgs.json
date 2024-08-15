@@ -1,0 +1,9 @@
+{
+  "package_name": "tf2_msgs",
+  "non_idl_tuples": [
+    "/home/aakashraawat/colcon_ws/src/geometry2/tf2_msgs:msg/TF2Error.msg",
+    "/home/aakashraawat/colcon_ws/src/geometry2/tf2_msgs:msg/TFMessage.msg",
+    "/home/aakashraawat/colcon_ws/src/geometry2/tf2_msgs:srv/FrameGraph.srv",
+    "/home/aakashraawat/colcon_ws/src/geometry2/tf2_msgs:action/LookupTransform.action"
+  ]
+}

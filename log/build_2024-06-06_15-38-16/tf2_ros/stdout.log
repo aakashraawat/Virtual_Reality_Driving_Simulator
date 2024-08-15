@@ -1,0 +1,77 @@
+[  5%] Built target gtest_main
+[ 10%] Built target gtest
+[ 30%] Built target tf2_ros
+[ 45%] Built target tf2_monitor
+[ 45%] Built target buffer_server
+[ 45%] Built target tf2_ros_test_static_transform_broadcaster
+[ 62%] Built target tf2_ros_test_time_reset
+[ 62%] Built target test_buffer
+[ 72%] Built target tf2_ros_test_transform_listener
+[ 72%] Built target tf2_ros_test_message_filter
+[ 72%] Built target tf2_ros_test_listener
+[ 77%] Built target tf2_echo
+[ 80%] Built target static_transform_broadcaster_node
+[ 85%] Built target tf2_ros_test_transform_broadcaster
+[ 90%] Built target test_buffer_client
+[ 95%] Built target test_buffer_server
+[100%] Built target static_transform_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/pythonpath.sh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/pythonpath.dsv
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/transform_broadcaster.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/__init__.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/transform_listener.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/buffer_client.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/buffer_interface.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/buffer.py
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros/static_transform_broadcaster.py
+Listing '/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages/tf2_ros'...
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/libtf2_ros.so
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/static_transform_broadcaster_node.hpp
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/transform_broadcaster.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/static_transform_broadcaster_visibility_control.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/visibility_control.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/buffer_interface.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/buffer_server.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/buffer_client.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/transform_listener.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/async_buffer_interface.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/message_filter.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/static_transform_broadcaster.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/buffer.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/create_timer_interface.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/create_timer_ros.h
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/include/tf2_ros/qos.hpp
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+-- Installing: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/package.dsv
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosExport.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosExport-noconfig.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/static_transform_broadcaster_nodeExport.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/static_transform_broadcaster_nodeExport-noconfig.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+-- Up-to-date: /home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/package.xml

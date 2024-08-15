@@ -1,0 +1,78 @@
+[0.086s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_py': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aakashraawat/colcon_ws/src/geometry2/tf2_py -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/tf2_py
+[0.223s] -- The C compiler identification is GNU 9.4.0
+[0.413s] -- The CXX compiler identification is GNU 9.4.0
+[0.505s] -- Check for working C compiler: /usr/bin/cc
+[0.622s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.622s] -- Detecting C compiler ABI info
+[0.726s] -- Detecting C compiler ABI info - done
+[0.736s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++
+[0.859s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.860s] -- Detecting CXX compiler ABI info
+[0.985s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[0.998s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.020s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.020s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.253s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.455s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.368s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.039s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.311s] -- Found tf2: 0.13.14 (/home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake)
+[4.321s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.340s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.786s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.786s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.786s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.786s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.805s] -- Found PythonExtra: .so  
+[4.834s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.803s] -- Configured cppcheck include dirs: /home/aakashraawat/colcon_ws/src/geometry2/tf2_py/include
+[5.803s] -- Configured cppcheck exclude dirs and/or files: 
+[5.804s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.805s] -- Added test 'lint_cmake' to check CMake code style
+[5.807s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.807s] -- Added test 'uncrustify' to check C / C++ code style
+[5.808s] -- Configured uncrustify additional arguments: 
+[5.808s] -- Added test 'xmllint' to check XML markup files
+[5.812s] -- Configuring done
+[5.820s] -- Generating done
+[5.822s] -- Build files have been written to: /home/aakashraawat/colcon_ws/build/tf2_py
+[5.846s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_py' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aakashraawat/colcon_ws/src/geometry2/tf2_py -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/tf2_py
+[5.850s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_py': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2_py -- -j20 -l20
+[5.884s] [35m[1mScanning dependencies of target tf2_py[0m
+[5.904s] [ 50%] [32mBuilding CXX object CMakeFiles/tf2_py.dir/src/tf2_py.cpp.o[0m
+[6.559s] [100%] [32m[1mLinking CXX shared library test_tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so[0m
+[6.717s] [100%] Built target tf2_py
+[6.729s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_py' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2_py -- -j20 -l20
+[6.750s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_py': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2_py
+[6.757s] -- Install configuration: ""
+[6.757s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/pythonpath.sh
+[6.758s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/pythonpath.dsv
+[6.758s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py
+[6.758s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py/__init__.py
+[6.784s] Listing '/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py'...
+[6.784s] Compiling '/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py/__init__.py'...
+[6.788s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so
+[6.789s] -- Set runtime path of "/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages/tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so" to ""
+[6.789s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/ament_index/resource_index/package_run_dependencies/tf2_py
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/ament_index/resource_index/parent_prefix_path/tf2_py
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/ament_prefix_path.sh
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/ament_prefix_path.dsv
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/path.sh
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/environment/path.dsv
+[6.790s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/local_setup.bash
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/local_setup.sh
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/local_setup.zsh
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/local_setup.dsv
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/package.dsv
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/ament_index/resource_index/packages/tf2_py
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig.cmake
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+[6.791s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_py/share/tf2_py/package.xml
+[6.794s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_py' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2_py

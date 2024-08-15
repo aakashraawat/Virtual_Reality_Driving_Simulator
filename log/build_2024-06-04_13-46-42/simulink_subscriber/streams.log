@@ -1,0 +1,32 @@
+[0.757s] Invoking command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data
+[0.914s] running egg_info
+[0.915s] writing ../../build/simulink_subscriber/simulink_subscriber.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../../build/simulink_subscriber/simulink_subscriber.egg-info/dependency_links.txt
+[0.915s] writing entry points to ../../build/simulink_subscriber/simulink_subscriber.egg-info/entry_points.txt
+[0.915s] writing requirements to ../../build/simulink_subscriber/simulink_subscriber.egg-info/requires.txt
+[0.915s] writing top-level names to ../../build/simulink_subscriber/simulink_subscriber.egg-info/top_level.txt
+[0.943s] reading manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[0.944s] writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[0.944s] running build
+[0.944s] running build_py
+[0.944s] copying simulink_subscriber/steering_angle_simulink.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber
+[0.944s] running install
+[0.945s] running install_lib
+[0.946s] copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/steering_angle_simulink.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber
+[0.946s] byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/steering_angle_simulink.py to steering_angle_simulink.cpython-38.pyc
+[0.947s]   File "/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/steering_angle_simulink.py", line 4
+[0.947s]     from from unity_robotics_msgs.msg import SteeringAngle  # to unity 3d
+[0.947s]          ^
+[0.948s] SyntaxError: invalid syntax
+[0.948s] 
+[0.948s] running install_data
+[0.948s] running install_egg_info
+[0.949s] removing '/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[0.949s] Copying ../../build/simulink_subscriber/simulink_subscriber.egg-info to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info
+[0.950s] running install_scripts
+[0.965s] Installing pose_publisher_node script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.965s] Installing pose_subscriber_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.965s] Installing prescanpose_subscriber script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.965s] Installing steering_angle_simulink script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.965s] writing list of installed files to '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log'
+[0.994s] Invoked command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber' returned '0': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data

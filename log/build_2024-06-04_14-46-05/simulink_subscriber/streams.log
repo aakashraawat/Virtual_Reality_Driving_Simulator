@@ -1,0 +1,24 @@
+[0.750s] Invoking command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data
+[0.911s] running egg_info
+[0.911s] writing ../../build/simulink_subscriber/simulink_subscriber.egg-info/PKG-INFO
+[0.911s] writing dependency_links to ../../build/simulink_subscriber/simulink_subscriber.egg-info/dependency_links.txt
+[0.911s] writing entry points to ../../build/simulink_subscriber/simulink_subscriber.egg-info/entry_points.txt
+[0.911s] writing requirements to ../../build/simulink_subscriber/simulink_subscriber.egg-info/requires.txt
+[0.912s] writing top-level names to ../../build/simulink_subscriber/simulink_subscriber.egg-info/top_level.txt
+[0.939s] reading manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.940s] running build_py
+[0.940s] running install
+[0.941s] running install_lib
+[0.942s] running install_data
+[0.942s] running install_egg_info
+[0.943s] removing '/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[0.944s] Copying ../../build/simulink_subscriber/simulink_subscriber.egg-info to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info
+[0.944s] running install_scripts
+[0.959s] Installing pose_publisher_node script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.959s] Installing pose_subscriber_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.959s] Installing prescanpose_subscriber script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.959s] Installing steering_angle_simulink script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[0.959s] writing list of installed files to '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log'
+[0.984s] Invoked command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber' returned '0': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data

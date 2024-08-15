@@ -1,0 +1,83 @@
+[0.355s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aakashraawat/colcon_ws/src/geometry2/tf2_eigen -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/tf2_eigen
+[0.498s] -- The C compiler identification is GNU 9.4.0
+[0.733s] -- The CXX compiler identification is GNU 9.4.0
+[0.858s] -- Check for working C compiler: /usr/bin/cc
+[1.007s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.008s] -- Detecting C compiler ABI info
+[1.173s] -- Detecting C compiler ABI info - done
+[1.185s] -- Detecting C compile features
+[1.185s] -- Detecting C compile features - done
+[1.187s] -- Check for working CXX compiler: /usr/bin/c++
+[1.330s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.331s] -- Detecting CXX compiler ABI info
+[1.475s] -- Detecting CXX compiler ABI info - done
+[1.486s] -- Detecting CXX compile features
+[1.487s] -- Detecting CXX compile features - done
+[1.489s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.520s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.748s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.946s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.544s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.866s] -- Found tf2: 0.13.14 (/home/aakashraawat/colcon_ws/install/tf2/share/tf2/cmake)
+[4.875s] -- Found tf2_ros: 0.13.14 (/home/aakashraawat/colcon_ws/install/tf2_ros/share/tf2_ros/cmake)
+[4.933s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.935s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.936s] -- Looking for pthread.h
+[5.101s] -- Looking for pthread.h - found
+[5.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.237s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.237s] -- Looking for pthread_create in pthreads
+[5.364s] -- Looking for pthread_create in pthreads - not found
+[5.364s] -- Looking for pthread_create in pthread
+[5.504s] -- Looking for pthread_create in pthread - found
+[5.506s] -- Found Threads: TRUE  
+[5.990s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[5.993s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.994s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.996s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.999s] -- Check if compiler accepts -pthread
+[6.168s] -- Check if compiler accepts -pthread - yes
+[6.241s] -- Configuring done
+[6.259s] -- Generating done
+[6.261s] -- Build files have been written to: /home/aakashraawat/colcon_ws/build/tf2_eigen
+[6.280s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aakashraawat/colcon_ws/src/geometry2/tf2_eigen -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/tf2_eigen
+[6.284s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2_eigen -- -j20 -l20
+[6.323s] [35m[1mScanning dependencies of target gtest[0m
+[6.323s] [35m[1mScanning dependencies of target gtest_main[0m
+[6.338s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.339s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.083s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.117s] [ 50%] Built target gtest_main
+[9.852s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.906s] [ 66%] Built target gtest
+[9.916s] [35m[1mScanning dependencies of target tf2_eigen-test[0m
+[9.987s] [ 83%] [32mBuilding CXX object CMakeFiles/tf2_eigen-test.dir/test/tf2_eigen-test.cpp.o[0m
+[15.094s] [100%] [32m[1mLinking CXX executable tf2_eigen-test[0m
+[15.333s] [100%] Built target tf2_eigen-test
+[15.346s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/tf2_eigen -- -j20 -l20
+[15.368s] Invoking command in '/home/aakashraawat/colcon_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2_eigen
+[15.375s] -- Install configuration: ""
+[15.375s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/include/tf2_eigen
+[15.376s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen.h
+[15.376s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/ament_index/resource_index/package_run_dependencies/tf2_eigen
+[15.376s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/ament_index/resource_index/parent_prefix_path/tf2_eigen
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.sh
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.dsv
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/environment/path.sh
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/environment/path.dsv
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/local_setup.bash
+[15.377s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/local_setup.sh
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/local_setup.zsh
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/local_setup.dsv
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/package.dsv
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/ament_index/resource_index/packages/tf2_eigen
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.378s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
+[15.379s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
+[15.379s] -- Installing: /home/aakashraawat/colcon_ws/install/tf2_eigen/share/tf2_eigen/package.xml
+[15.381s] Invoked command in '/home/aakashraawat/colcon_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros:/home/aakashraawat/colcon_ws/install/tf2_py:/home/aakashraawat/colcon_ws/install/tf2_msgs:/home/aakashraawat/colcon_ws/install/tf2:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs:/home/aakashraawat/colcon_ws/install/simulink_subscriber:/home/aakashraawat/colcon_ws/install/unity_robotics_demo:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint:/home/aakashraawat/colcon_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib:/home/aakashraawat/colcon_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aakashraawat/colcon_ws/install/tf2_ros/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_py/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/tf2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/tf2_eigen

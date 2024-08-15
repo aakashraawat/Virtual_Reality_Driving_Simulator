@@ -1,0 +1,9 @@
+[console_scripts]
+angular_velocity_f_left = simulink_subscriber.angular_velocity_f_left:main
+angular_velocity_f_right = simulink_subscriber.angular_velocity_f_right:main
+angular_velocity_r_left = simulink_subscriber.angular_velocity_r_left:main
+angular_velocity_r_right = simulink_subscriber.angular_velocity_r_right:main
+pose_subscriber_publisher = simulink_subscriber.prescanpose_subscriber_trial:main
+prescanpose_subscriber = simulink_subscriber.prescanpose_subscriber:main
+steering_angle_simulink = simulink_subscriber.steering_angle_simulink:main
+

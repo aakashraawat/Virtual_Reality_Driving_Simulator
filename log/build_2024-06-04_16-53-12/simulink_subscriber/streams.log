@@ -1,0 +1,27 @@
+[0.848s] Invoking command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data
+[1.011s] running egg_info
+[1.011s] writing ../../build/simulink_subscriber/simulink_subscriber.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../../build/simulink_subscriber/simulink_subscriber.egg-info/dependency_links.txt
+[1.012s] writing entry points to ../../build/simulink_subscriber/simulink_subscriber.egg-info/entry_points.txt
+[1.012s] writing requirements to ../../build/simulink_subscriber/simulink_subscriber.egg-info/requires.txt
+[1.012s] writing top-level names to ../../build/simulink_subscriber/simulink_subscriber.egg-info/top_level.txt
+[1.041s] reading manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../../build/simulink_subscriber/simulink_subscriber.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.042s] copying simulink_subscriber/prescanpose_subscriber.py -> /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber
+[1.042s] running install
+[1.043s] running install_lib
+[1.044s] copying /home/aakashraawat/colcon_ws/build/simulink_subscriber/build/lib/simulink_subscriber/prescanpose_subscriber.py -> /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber
+[1.044s] byte-compiling /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber/prescanpose_subscriber.py to prescanpose_subscriber.cpython-38.pyc
+[1.046s] running install_data
+[1.046s] running install_egg_info
+[1.048s] removing '/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[1.048s] Copying ../../build/simulink_subscriber/simulink_subscriber.egg-info to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages/simulink_subscriber-0.0.0-py3.8.egg-info
+[1.049s] running install_scripts
+[1.064s] Installing pose_publisher_node script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[1.065s] Installing pose_subscriber_publisher script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[1.065s] Installing prescanpose_subscriber script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[1.065s] Installing steering_angle_simulink script to /home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/simulink_subscriber
+[1.065s] writing list of installed files to '/home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log'
+[1.091s] Invoked command in '/home/aakashraawat/colcon_ws/src/simulink_subscriber' returned '0': PYTHONPATH=/home/aakashraawat/colcon_ws/build/simulink_subscriber/prefix_override:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/unity_robotics_msgs/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/simulink_subscriber/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/aakashraawat/colcon_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulink_subscriber build --build-base /home/aakashraawat/colcon_ws/build/simulink_subscriber/build install --record /home/aakashraawat/colcon_ws/build/simulink_subscriber/install.log --install-scripts $base/lib/simulink_subscriber --single-version-externally-managed install_data

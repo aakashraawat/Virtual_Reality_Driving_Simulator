@@ -1,0 +1,6 @@
+Invoking command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/aakashraawat/colcon_ws/src/unity_robotics_msgs -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/unity_robotics_msgs
+Invoked command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/aakashraawat/colcon_ws/src/unity_robotics_msgs -DCMAKE_INSTALL_PREFIX=/home/aakashraawat/colcon_ws/install/unity_robotics_msgs
+Invoking command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/unity_robotics_msgs -- -j20 -l20
+Invoked command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aakashraawat/colcon_ws/build/unity_robotics_msgs -- -j20 -l20
+Invoking command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/unity_robotics_msgs
+Invoked command in '/home/aakashraawat/colcon_ws/build/unity_robotics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aakashraawat/colcon_ws/build/unity_robotics_msgs

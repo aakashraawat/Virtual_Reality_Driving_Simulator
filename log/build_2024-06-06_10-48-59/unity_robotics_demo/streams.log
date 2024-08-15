@@ -1,0 +1,22 @@
+[1.047s] Invoking command in '/home/aakashraawat/colcon_ws/src/unity_robotics_demo': PYTHONPATH=/home/aakashraawat/colcon_ws/build/unity_robotics_demo/prefix_override:/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build install --record /home/aakashraawat/colcon_ws/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data
+[1.234s] running egg_info
+[1.235s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[1.235s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[1.235s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[1.236s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[1.265s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.265s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.265s] running build
+[1.265s] running build_py
+[1.266s] running install
+[1.266s] running install_lib
+[1.268s] running install_data
+[1.268s] running install_egg_info
+[1.269s] removing '/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info' (and everything under it)
+[1.270s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[1.270s] running install_scripts
+[1.287s] Installing color_publisher script to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.287s] Installing position_service script to /home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.287s] writing list of installed files to '/home/aakashraawat/colcon_ws/build/unity_robotics_demo/install.log'
+[1.315s] Invoked command in '/home/aakashraawat/colcon_ws/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/aakashraawat/colcon_ws/build/unity_robotics_demo/prefix_override:/home/aakashraawat/colcon_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/aakashraawat/colcon_ws/build/unity_robotics_demo/build install --record /home/aakashraawat/colcon_ws/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data
