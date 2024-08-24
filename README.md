@@ -27,8 +27,8 @@ This directory contains all the scripts required for the subscription of ROS2 no
 
 The following versions of software and operating systems are used in this project:
 
-- **Operating System:** WSL2 on Windows 11
-- **Operating System:** Ubuntu 20.04 on WSL2
+- **Windows:** WSL2 on Windows 11
+- **Linux:** Ubuntu 20.04 on WSL2
 - **ROS2:** Foxy Fitzroy
 - **Simcenter Prescan:** Version 2302
 - **Unity3D:** Version 2022.04
