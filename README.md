@@ -23,6 +23,16 @@ This directory contains all the scripts required for the subscription of ROS2 no
 
 - **Unity Scripts:** Scripts that manage the interactions between Unity3D and ROS2, including receiving data from ROS2 topics and using that data within the Unity3D simulation.
 
+## Software and Operating System Versions
+
+The following versions of software and operating systems are used in this project:
+
+- **Operating System:** Ubuntu 20.04 on WSL2
+- **ROS2:** Foxy Fitzroy
+- **Simcenter Prescan:** Version 2302
+- **Unity3D:** Version 2022.04
+- **MATLAB:** Version 2022b
+
 ## Getting Started
 
 To run the simulation, follow these steps:
@@ -49,5 +59,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or support, please contact the repository owner.
-
 
