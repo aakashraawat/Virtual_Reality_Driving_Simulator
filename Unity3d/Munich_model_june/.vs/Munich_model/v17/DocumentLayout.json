@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Z004XZ4H\\Munich_model\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|C:\\Users\\Z004XZ4H\\Munich_model\\assets\\scripts\\posesubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\posesubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\munich_model\\assets\\rosmessages\\unityroboticsdemo\\msg\\posrotmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|solutionrelative:assets\\rosmessages\\unityroboticsdemo\\msg\\posrotmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082D2B09-8105-9991-4F99-D29CD0BCD724}|Unity.VisualStudio.Editor.csproj|C:\\Users\\Z004XZ4H\\Munich_model\\library\\packagecache\\com.unity.ide.visualstudio@2.0.22\\editor\\visualstudiointegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082D2B09-8105-9991-4F99-D29CD0BCD724}|Unity.VisualStudio.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.ide.visualstudio@2.0.22\\editor\\visualstudiointegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419C1D9D-84EA-A37A-B896-95AB1D2938F2}|Unity.Robotics.ROSTCPConnector.csproj|C:\\Users\\Z004XZ4H\\Munich_model\\library\\packagecache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\runtime\\tcpconnector\\rosconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419C1D9D-84EA-A37A-B896-95AB1D2938F2}|Unity.Robotics.ROSTCPConnector.csproj|solutionrelative:library\\packagecache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\runtime\\tcpconnector\\rosconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|C:\\Users\\Z004XZ4H\\Munich_model\\assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA9290-1740-2781-DA1E-A609487227D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PosRotMsg.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\RosMessages\\UnityRoboticsDemo\\msg\\PosRotMsg.cs",
+              "RelativeDocumentMoniker": "Assets\\RosMessages\\UnityRoboticsDemo\\msg\\PosRotMsg.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\RosMessages\\UnityRoboticsDemo\\msg\\PosRotMsg.cs",
+              "RelativeToolTip": "Assets\\RosMessages\\UnityRoboticsDemo\\msg\\PosRotMsg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:24:49.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoseSubscriber.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\Scripts\\PoseSubscriber.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PoseSubscriber.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\Scripts\\PoseSubscriber.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PoseSubscriber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T11:05:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisualStudioIntegration.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Munich_model\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\VisualStudioIntegration.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\VisualStudioIntegration.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Munich_model\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\VisualStudioIntegration.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\VisualStudioIntegration.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAYwDYAAADIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:46:31.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\Scripts\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Munich_model\\Assets\\Scripts\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FollowCamera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T12:11:23.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ROSConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Munich_model\\Library\\PackageCache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\Runtime\\TcpConnector\\ROSConnection.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\Runtime\\TcpConnector\\ROSConnection.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Munich_model\\Library\\PackageCache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\Runtime\\TcpConnector\\ROSConnection.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.robotics.ros-tcp-connector@c27f00c6cf\\Runtime\\TcpConnector\\ROSConnection.cs",
+              "ViewState": "AQIAANkBAAAAAAAAAAAhwFUDAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:21:21.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

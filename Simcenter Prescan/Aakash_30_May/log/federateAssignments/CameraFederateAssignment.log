@@ -1,0 +1,19 @@
+federates:
+[
+  {
+    federateId: 0
+    moduleName: CameraPlugin::CameraFederate
+    instanceName: CameraFederate_0
+    hostName: di2belvn0115wpc
+    gpuId: -1
+    cameraType: defaultCamera
+    sensors: 
+    [
+      {
+        index: 0
+        name: CameraSensor_1
+        cameraType: defaultCamera
+      }
+    ]
+  }
+]

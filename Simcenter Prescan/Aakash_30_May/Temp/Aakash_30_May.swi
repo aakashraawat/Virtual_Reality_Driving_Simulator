@@ -1,0 +1,13 @@
+# create sensor mounts and cameras
+CameraSensor_1_mount = visnodes.VisTransform.createTransformNode(r"CameraSensor_1_mount")
+scene.Tesla_Model_3_1.addChild(CameraSensor_1_mount)
+CameraSensor_1_mount.setTranslation(1.29999997615814, 0.4, 0.99)
+CameraSensor_1_mount.setRotationLegacyYUpAxes(1.5711009132900582, -0.99969545988188768, 0.017449749160680948, 0.017449749160680941)
+
+CameraSensor_1 = visviewer.VisCamera(r"CameraSensor_1")
+CameraSensor_1_mount.addChild(CameraSensor_1)
+CameraSensor_1.setProjectionMatrixPerspective(0.80656297037058056, 0.61940592923487225, 0.10000000149011612, 300)
+
+cameras[r"CameraSensor_1"] = VisCameras.CameraInfo(r"CameraSensor_1", CameraSensor_1, visviewer.VisViewerBase.SPECTATOR, True)
+cameras[r"CameraSensor_1"].setSensorDimensions(6.4, 4.8);cameras[r"CameraSensor_1"].setFrameRate(20)
+

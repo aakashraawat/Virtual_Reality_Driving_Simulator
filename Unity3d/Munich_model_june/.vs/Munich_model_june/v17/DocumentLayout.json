@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 11\\munich_model_june\\assets\\scripts\\wheelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 11\\munich_model_june\\assets\\scripts\\angularvelocitywheelfright.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\angularvelocitywheelfright.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\assets\\scripts\\angularvelocitywheelfleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\angularvelocitywheelfleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 11\\munich_model_june\\assets\\scripts\\angularvelocitywheelrleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\angularvelocitywheelrleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 11\\munich_model_june\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FCC55C-42B7-DE3F-058A-24F86D2BD036}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AngularVelocityWheelRLeft.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelRLeft.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AngularVelocityWheelRLeft.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelRLeft.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AngularVelocityWheelRLeft.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:36:55.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:29:15.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WheelControl.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\WheelControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WheelControl.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\WheelControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WheelControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:25:11.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AngularVelocityWheelFRight.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelFRight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AngularVelocityWheelFRight.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelFRight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AngularVelocityWheelFRight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:58:22.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AngularVelocityWheelFLeft.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelFLeft.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AngularVelocityWheelFLeft.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 11\\Munich_model_june\\Assets\\Scripts\\AngularVelocityWheelFLeft.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AngularVelocityWheelFLeft.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:57:06.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

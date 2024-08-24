@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 6\\munich_model_may\\assets\\scripts\\wheelrotationsub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheelrotationsub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|c:\\users\\z004xz4h\\downloads\\week 6\\munich_model_may\\assets\\scripts\\tirerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tirerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\assets\\scripts\\posesubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3FCBB3-E48E-7C66-5295-10AE8CEE506F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\posesubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TireRotation.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\TireRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TireRotation.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\TireRotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TireRotation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:48:09.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WheelRotationSub.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\WheelRotationSub.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WheelRotationSub.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\WheelRotationSub.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WheelRotationSub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:32:33.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PoseSubscriber.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\PoseSubscriber.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PoseSubscriber.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\PoseSubscriber.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PoseSubscriber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:07:15.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\Z004XZ4H\\Downloads\\Week 6\\Munich_model_may\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:05:26.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
